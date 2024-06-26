@@ -32,6 +32,12 @@ public class MainClass {
 		System.out.println(new MainClass().x);
 		System.out.println();
 		System.out.println(new MainClass().x);
+		System.out.println();
+		//creating object reference
+		MainClass obj=new MainClass();
+		System.out.println("\ncoming from Object reference\n");
+		System.out.println(obj.x);
+		
 
 		
 		
