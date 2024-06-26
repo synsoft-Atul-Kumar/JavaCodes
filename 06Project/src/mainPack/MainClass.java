@@ -9,6 +9,14 @@ package mainPack;
 public class MainClass {
 
 	int x;
+	//creating object reference from static block
+		static{
+			MainClass obj=new MainClass();
+			System.out.println();
+			System.out.println("Creating object refernece from static block");
+			System.out.println(obj);
+			System.out.println();
+		}
 	
 	/**
 	 * constructor of MainClass
@@ -25,6 +33,9 @@ public class MainClass {
 	static {
 		System.out.println("this is static block");
 	}
+	
+	
+	
 	
 	public static void main(String[] args) {
 		System.out.println();
